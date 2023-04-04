@@ -1,0 +1,73 @@
+﻿<style>
+span, div, p, a, li, td { -webkit-text-size-adjust:none; }	/*	兼容webkit核心??器的最小字体?示效果	*/
+body{
+	clear:both; margin:0px; padding: 5px 5px 5px 5px; background-color:#EEEEEE; color:#999999; font-size:12px; border:1px solid #D6D3CE;
+	cursor:default; 
+}
+body *{margin:0px; padding:0px; font-size:12px; font-family: verdana, arial, helvetica, sans-serif;}
+TD {
+	webkit-text-size-adjust: none
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+#center {
+	margin:0px; font-size:12px; padding:10px 5px 5px 5px; text-align:left; width:auto !important:width:100%; min-height:200px;height:hide !important;
+	float: right; border: 1px solid #EFEFEF;
+	overflow:auto;
+}
+#check_list {
+	margin:0px; font-size:12px; padding:10px 5px 5px 5px; text-align:left; width:auto !important:width:100%; min-height:200px;height:hide !important;
+	float: right; border: 1px solid #EFEFEF;
+	cursor:default; 
+}
+.AreaName {
+	margin:2px 2px 2px 2px; padding:2px 3px 2px 3px; background-color:#EEEEEE; text-align:left; border:1px solid #D6D3CE; overflow:auto;
+	cursor:pointer;
+}
+.HostName {
+	margin:2px 2px 2px 2px; padding:2px 3px 2px 3px; background-color:#EEEEEE; text-align:left; border:1px solid #D6D3CE; overflow:auto;
+	cursor:pointer;
+}
+.HostData {
+	margin:2px 2px 2px 2px; padding:2px 3px 2px 3px; background-color:#EEEEEE; text-align:left; border:1px solid #D6D3CE; overflow:auto;
+	cursor:text;
+}
+.RepeatHostName {
+	margin:2px 2px 2px 2px; padding:2px 3px 2px 3px; text-align:left; overflow:auto;
+	color:#999933; background-color:#EEEECC; border:1px solid #D6D366;
+	cursor:pointer;
+}
+.tdc2 {
+	PADDING-TOP: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-RIGHT: 2px;
+	MARGIN: 3px 1px;
+	WIDTH: auto;
+	COLOR: #666666; BACKGROUND-COLOR: #eff1f3
+	FONT-SIZE: 10pt; FONT-FAMILY: "宋体"; HEIGHT: 22px;
+	BORDER-TOP: #6699cc 0px solid; BORDER-LEFT: #D6D3CE 0px solid; BORDER-BOTTOM: #D6D3CE 0px solid; BORDER-RIGHT: #D6D3CE 0px solid;
+}
+.button{
+	BORDER: #D6D3CE 1px solid;
+	FONT-SIZE: 11px;
+	COLOR: black;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#D6D3CE);
+	height:16px;
+	margin: 0px 2px 0px 0px;
+	padding: 0px 2px 0px 0px;
+	text-decoration: none;
+	cursor:pointer;
+}
+#UI_TABLE_HEARD{
+	position:relative; top:0px;
+	width:100%;cell-spacing:0px; margin:0px; border-collapse:collapse; border-bottom:1px solid #D6D3CE;
+}
+#UI_TABLE_HEARD tr td{
+	padding-bottom:1px;
+}
+#UI_TABLE_HEARD #TITLE_BAR{
+	height:16px;
+}
+#UI_TABLE_HEARD #TITLE_BAR .favicon{
+	width:16px;height:16px;
+	margin: 0px 2px 0px 0px;
+	padding: 0px 2px 0px 0px;
+}
+</style>
